@@ -8,7 +8,12 @@
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family:
+    'Source Code Pro VF', 
+    'Source Code Pro',
+    'Source Han Serif SC', 'Source Han Serif', '思源宋体 CN', '思源宋体',
+    'Source Han Sans SC', 'Source Han Sans HW SC', 'Source Han Sans HW SC', '思源黑体 CN', '思源黑体',
+    monospace;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -26,7 +31,11 @@ body{
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family:
+    'D-Din',
+    'Source Han Sans SC', 'Source Han Sans HW SC', 'Source Han Sans HW SC', '思源黑体 CN', '思源黑体',
+    sans-serif;
+  font-weight: 300;
   line-height: 1.5;
 }
 
@@ -230,8 +239,13 @@ article .title {
   padding: 1em;
 }
 
-.callout p {
-  font-family: 'IBM Plex Mono', monospace;
+.callout p, code > span {
+  font-family:
+    'Source Code Pro VF', 
+    'Source Code Pro',
+    'Source Han Serif SC', 'Source Han Serif', '思源宋体 CN', '思源宋体',
+    'Source Han Sans SC', 'Source Han Sans HW SC', 'Source Han Sans HW SC', '思源黑体 CN', '思源黑体',
+    monospace;
   margin: 0;
 }
 
