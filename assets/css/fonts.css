@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 200 900;
   font-display: swap;
-  src: url(/static/fonts/SourceCodeVF-Upright.otf.woff2) format('woff2');
+  src: url(/fonts/SourceCodeVF-Upright.otf.woff2) format('woff2');
 }
 
 @font-face {
@@ -12,5 +12,5 @@
   font-style: normal;
   font-weight: 200 900;
   font-display: swap;
-  src: url(/static/fonts/D-DIN.woff2) format('woff2');
+  src: url(/fonts/D-DIN.woff2) format('woff2');
 }
