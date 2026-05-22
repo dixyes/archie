@@ -37,6 +37,7 @@ p {
     sans-serif;
   font-weight: 300;
   line-height: 1.5;
+  text-autospace: normal;
 }
 
 hr {
@@ -136,8 +137,7 @@ pre code {
   margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
-  padding: 0 1ch;
+  width: min(100% - 2rem, 1024px);
   word-wrap: break-word;
 }
 
@@ -247,6 +247,7 @@ article .title {
     'Source Han Sans SC', 'Source Han Sans HW SC', 'Source Han Sans HW SC', '思源黑体 CN', '思源黑体',
     monospace;
   margin: 0;
+  font-weight: 300;
 }
 
 .callout a {
