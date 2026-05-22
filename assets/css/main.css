@@ -239,7 +239,7 @@ article .title {
   padding: 1em;
 }
 
-.callout p, code > span {
+.callout p, code > span, code::before {
   font-family:
     'Source Code Pro VF', 
     'Source Code Pro',
